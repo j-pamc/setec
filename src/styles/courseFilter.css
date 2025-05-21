@@ -36,3 +36,15 @@
   transform: scale(1.06);
   box-shadow: 0 0 0 2px rgba(40, 39, 39, 0.171);
 }
+
+@media (max-width: 576px) {
+  .course-btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(10, 36, 99, 0.2);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+}

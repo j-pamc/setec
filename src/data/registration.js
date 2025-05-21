@@ -92,7 +92,7 @@ const registrations = [
         date: "28",
         time: "11h-13h",
         location: "Mini auditório 1",
-        link: "",
+        link: "https://forms.gle/nEcBNZobXoH4oURE6",
         by: "Fátima Almeida, CEO Baiqi"
     },
     {
@@ -104,7 +104,7 @@ const registrations = [
         date: "26",
         time: "10h-12h",
         location: "Pav 1",
-        link: "",
+        link: "https://forms.gle/qxW2Ncy2ne2WnLG88",
         by: "Prof. Judson Paiva"
     },
     {
@@ -116,7 +116,7 @@ const registrations = [
         date: "26",
         time: "10h-12h",
         location: "Pav 2",
-        link: "",
+        link: "https://forms.gle/rVmKs3KYdjJNCNPt5",
         by: "Est. Valdir Simões"
     },
     {
@@ -126,21 +126,21 @@ const registrations = [
         course: "einfo",
         type: "Mini-Curso",
         date: "27",
-        time: "10h-14h",
+        time: "10h-12h",
         location: "Lab. Profissionalizantes, P1 sala 8",
-        link: "",
+        link: "https://forms.gle/CYjS5X6H19TrQ2zL9",
         by: "Est. Victor Soares"
     },
     {
         id: 15,
-        title: "Desenvolvimento de Aplicações alto-desempenho, exploração de mult-cores usando C e Java",
+        title: "Desenvolvimento de Aplicações alto-desempenho, exploração de multicores usando C e Java",
         description: "Mini-curso focado em otimização e programação paralela em C e Java.",
         course: "einfo",
         type: "Mini-Curso",
-        date: "",
-        time: "",
+        date: "27",
+        time: "12h-14h",
         location: "Lab. Profissionalizantes, P1 sala 8",
-        link: "",
+        link: "https://forms.gle/BKf8KiGc7r7phsjY7",
         by: "Prof. Msc. João Costa"
     },
     {

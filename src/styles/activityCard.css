@@ -58,13 +58,13 @@
   }
   
   .activity-card h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #333;
     margin-bottom: 10px;
   }
   
   .activity-card p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #666;
     line-height: 1.5;
   }
@@ -75,7 +75,7 @@
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
