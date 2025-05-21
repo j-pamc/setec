@@ -1,0 +1,118 @@
+.activity-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+  }
+
+  .activity-time {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .activity-description {
+    margin: 10px 0;
+  }
+  
+  .activity-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: auto;
+    align-self: flex-end;
+  }
+  
+  .activity-btn:hover {
+    background: var(--secondary);
+    color: white;
+  }
+
+  .activity-btn {
+    padding: 8px 16px;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: var(--primary);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: auto;
+    align-self: flex-end;
+  }
+  
+  .activity-btn:hover {
+    background-color: #fff;
+    color: var(--primary);
+    transform: scale(1.03);
+  }
+  
+  .activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /*color: white;*/
+  }
+  
+  .activity-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .activity-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .activity-card button {
+    background-color: #102464;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .activity-card button:hover {
+    /*background-color: #102464;*/
+    color: white;
+    background: linear-gradient(45deg, #2575fc, #102464); /* Inverte o gradiente no hover */
+  }
+
+  .activity-datetime {
+    margin-top: 10px; /* Espaçamento acima */
+    font-size: 0.9rem; /* Tamanho menor para data e hora */
+    color: #666; /* Cor mais suave */
+    display: flex;
+    gap: 10px; /* Espaçamento entre data e hora */
+  }
+
+  .activity-date {
+    font-weight: bold; /* Destaca a data */
+  }
+
+  .activity-time {
+    font-style: italic; /* Estiliza a hora */
+  }
+
+  .activity-location {
+  font-size: 0.95rem;
+  color: #444;
+  margin  : 8px;
+}
+
+.activity-btn-disabled {
+  background: #bbb !important;
+  color: #fff !important;
+  cursor: not-allowed !important;
+  opacity: 0.7;
+  border: none;
+  box-shadow: none;
+}

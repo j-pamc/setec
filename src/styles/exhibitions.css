@@ -1,0 +1,83 @@
+
+  .hero-section {
+    background: #0A2463;
+    /*
+    background: linear-gradient(rgba(10, 36, 99, 0.8), rgba(10, 36, 99, 0.9)), 
+                url('/assets/images/');
+    */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .hero-section p {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .exhibitions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+ .register-btn {
+     display: inline-block;
+    background-color: #d19f4e; /* Cor de fundo vibrante */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border: none; /* Remove bordas padrão */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Centraliza o texto */
+    cursor: pointer; /* Mostra o cursor de clique */
+    transition: all 0.3s ease; /* Animação suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para destacar*/
+    margin: 10px;
+  }
+
+  .register-btn:hover {
+    /*background-color: #E78B48; /* Cor de fundo mais escura no hover */
+    background: linear-gradient(45deg, #ffda5f, #d19f4e); /* Inverte o gradiente no hover */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Aumenta a sombra no hover */
+    color : #fff;
+  }
+
+  .exhibitions-hero {
+    text-align: center;
+    padding: 2.5rem 0 1.5rem 0;
+  }
+
+  .exhibitions-content {
+    display: block;
+    text-align: center;
+  }
+
+  .preview-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .preview-btn, .register-btn {
+    flex: 1 1 180px;
+    min-width: 140px;
+    max-width: 320px;
+    min-height: 50px;
+    box-sizing: border-box;
+  }
+

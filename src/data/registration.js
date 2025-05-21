@@ -1,0 +1,160 @@
+const registrations = [
+    {
+        id: 1,
+        title: "Programação Competitiva",
+        description: "Desafio de algoritmos para aprimorar habilidades em lógica e estrutura de dados que qualifica ao concurso Nacional.",
+        course: "einfo",
+        type: "Concurso",
+        date: "27",
+        time: "09h-14h",
+        location: "Lab. de informatica da Biblioteca",
+        link: "https://forms.gle/U7YCG3R7RdPxsLTi9",
+        by: "Prof. Sediangani Sofrimento, Est. Samuel Pedro, Est. Darilton, Est. Adilson" 
+    },
+    {
+        id: 2,
+        title: "Redes de Computadores",
+        description: "Competição para testar conhecimentos em protocolos e topologias de redes. Plataforma: Cisco Packet Tracer.",
+        course: "einfo",
+        type: "Concurso",
+        date: "26",
+        time: "09h-14h",
+        location: "Lab. de informatica da Biblioteca",
+        link: "https://forms.gle/GHj4SA96JoirDgfs5",
+        by: "Prof. Sérgio Oliveira"
+    },
+    {
+        id: 4,
+        title: "Projectos para Exposição",
+        description: "Apresentação de projetos inovadores desenvolvidos pelos alunos.",
+        course: "einfo",
+        type: "Exposição",
+        date: "28",
+        time: "10h-16h30",
+        location: "Corredor principal ISPTEC",
+        link: " https://forms.gle/U8Nju6HHAYHw2n1q9",
+        by: "DET"
+    },
+    {
+        id: 6,
+        title: "Desafio de Datilógrafia",
+        description: "Competição de digitação para testar velocidade e precisão de uso do teclado.",
+        course: "todos",
+        type: "Jogo",
+        date: "28",
+        time: "9h-11h",
+        location: "Lab. de Informática C",
+        link: " https://forms.gle/mjCVyVMwsRS6oEiP8",
+        by: "Est. Darilton, Est. Jorge"
+    },
+    {
+        id: 7,
+        title: "DevOps vs Cybersecurity",
+        description: "Mesa redonda debatendo as melhores práticas e desafios entre DevOps e segurança.",
+        course: "einfo",
+        type: "Mesa Redonda",
+        date: "27",
+        time: "8h:30-10h:30",
+        location: "Mini auditório 2",
+        link: "https://forms.gle/gka2HVLnSx5Z2nKR6",
+        by: "Engº Nelson Nascimento, Engº Ndawedua Neto, Engº Osvaldo Hossi"
+    },
+    {
+        id: 9,
+        title: "O Futuro da Engenharia e Tecnologias Emergentes",
+        description: "Discussão sobre tendências e oportunidades nas áreas de engenharia e tech.",
+        course: "einfo",
+        type: "Mesa Redonda",
+        date: "27",
+        time: "10h-11h",
+        location: "Mini auditório 1",
+        link: "https://forms.gle/krbPrs2Gh174VMwy7",
+        by: "Prof. Drº Aires Veloso"
+    },
+    {
+        id: 10,
+        title: "As Mulheres e as TICs",
+        description: "Workshop voltado para a inclusão e protagonismo feminino em tecnologia.",
+        course: "einfo",
+        type: "Workshop",
+        date: "28",
+        time: "9h-11h",
+        location: "Bloco Administrativo, 1º andar sala 4",
+        link: "https://forms.gle/D6TbFrHstxmRfM6U6 ",
+        by: "Prof. Silvia António, Est. Alumni"
+    },
+    {
+        id: 11,
+        title: "Empreendedorismo e Fintechs",
+        description: "Workshop sobre inovação financeira e oportunidades de negócios em fintech.",
+        course: "einfo",
+        type: "Workshop",
+        date: "28",
+        time: "11h-13h",
+        location: "Mini auditório 1",
+        link: "",
+        by: "Fátima Almeida, CEO Baiqi"
+    },
+    {
+        id: 12,
+        title: "Git, GitHub",
+        description: "Mini-curso prático de versionamento de código usando Git e GitHub.",
+        course: "einfo",
+        type: "Mini-Curso",
+        date: "26",
+        time: "10h-12h",
+        location: "Pav 1",
+        link: "",
+        by: "Prof. Judson Paiva"
+    },
+    {
+        id: 13,
+        title: "Introdução ao Frontend com Angular ou React",
+        description: "Mini-curso para aprender fundamentos de desenvolvimento web com frameworks.",
+        course: "einfo",
+        type: "Mini-Curso",
+        date: "26",
+        time: "10h-12h",
+        location: "Pav 2",
+        link: "",
+        by: "Est. Valdir Simões"
+    },
+    {
+        id: 14,
+        title: "Designer de Interfaces (UI Design)",
+        description: "Mini-curso sobre princípios de design de interfaces e experiência do usuário.",
+        course: "einfo",
+        type: "Mini-Curso",
+        date: "27",
+        time: "10h-14h",
+        location: "Lab. Profissionalizantes, P1 sala 8",
+        link: "",
+        by: "Est. Victor Soares"
+    },
+    {
+        id: 15,
+        title: "Desenvolvimento de Aplicações alto-desempenho, exploração de mult-cores usando C e Java",
+        description: "Mini-curso focado em otimização e programação paralela em C e Java.",
+        course: "einfo",
+        type: "Mini-Curso",
+        date: "",
+        time: "",
+        location: "Lab. Profissionalizantes, P1 sala 8",
+        link: "",
+        by: "Prof. Msc. João Costa"
+    },
+    {
+        id: 16,
+        title: "Introdução à Programação Competitiva",
+        description: "Palestra introdutória sobre lógica de programação e técnicas de competição.",
+        course: "einfo",
+        type: "Palestra",
+        date: "26",
+        time: "13h-14h",
+        location: "Pav 1",
+        link: "https://forms.gle/7J8QYpnz44nLHFYk8",
+        by: "Est. Samuel Pedro"
+    }
+]; 
+
+export default registrations;
